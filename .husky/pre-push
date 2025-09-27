@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm test
+pnpm e2e
+pnpm link:check
+pnpm build
