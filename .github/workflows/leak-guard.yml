@@ -1,0 +1,15 @@
+name: Content Leak Guard
+on: [push, pull_request]
+jobs:
+  leak-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan for banned strings
+        run: |
+          set -e
+          banned='roadmap\\.sh|Kamran Ahmed'
+          if grep -RInE "$banned" -- . ':!node_modules' ':!pnpm-lock.yaml' ; then
+            echo "Found blocked roadmap.sh strings. Remove copied content."
+            exit 1
+          fi

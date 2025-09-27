@@ -1,0 +1,214 @@
+{
+  "tracks": [
+    {
+      "id": "rules-notation",
+      "title": "Rules & Notation",
+      "summary": "Master the fundamentals that make every future study session readable and legal.",
+      "stages": ["beginner"]
+    },
+    {
+      "id": "tactics",
+      "title": "Tactics",
+      "summary": "Sharpen pattern recognition so you can win material or deliver mate when chances appear.",
+      "stages": ["beginner", "improver"]
+    },
+    {
+      "id": "strategy",
+      "title": "Strategy",
+      "summary": "Develop long-term plans and piece coordination skills across different pawn structures.",
+      "stages": ["improver", "intermediate"]
+    },
+    {
+      "id": "endgames",
+      "title": "Endgames",
+      "summary": "Convert small advantages by understanding theoretical endgame blueprints.",
+      "stages": ["beginner", "intermediate"]
+    },
+    {
+      "id": "openings",
+      "title": "Openings",
+      "summary": "Build a resilient repertoire that leads to positions you understand.",
+      "stages": ["improver", "intermediate", "advanced"]
+    },
+    {
+      "id": "analysis-habits",
+      "title": "Analysis Habits",
+      "summary": "Review games objectively so every tournament generates feedback.",
+      "stages": ["improver", "advanced"]
+    },
+    {
+      "id": "play-online-otb",
+      "title": "Play Online & OTB",
+      "summary": "Build routines for competitive play, etiquette, and stamina.",
+      "stages": ["beginner", "improver"]
+    },
+    {
+      "id": "engine-programming",
+      "title": "Engine Programming",
+      "summary": "Learn how chess software evaluates positions and powers training tools.",
+      "stages": ["intermediate", "advanced"]
+    }
+  ],
+  "practice_goals": [
+    "mate-in-1: 100 puzzles",
+    "mate-in-2: 100 puzzles",
+    "tactics mixed: 500 puzzles @ >=70%",
+    "endgame basics: KP vs K, opposition drills",
+    "opening: 3 mainlines as White, 2 as Black (classical setups)",
+    "analysis habit: annotate 1 game/week"
+  ],
+  "nodes": [
+    {
+      "id": "rules-notation-fundamentals",
+      "title": "Understand the board, pieces, and notation",
+      "track": "rules-notation",
+      "stage": "beginner",
+      "why": "Knowing the baseline rules and recording system makes every future lesson understandable and legally sound.",
+      "outcomes": [
+        "Explain how each piece moves, captures, and promotes.",
+        "Write algebraic notation for any legal move and basic checkmate.",
+        "Setup starting and simple endgame positions from FEN strings."
+      ],
+      "time_estimate": "4-6 hours",
+      "prerequisites": [],
+      "resources": [
+        "books-chess-strategy",
+        "notation-fen-tutorial",
+        "notation-algebraic-overview"
+      ]
+    },
+    {
+      "id": "tactics-pattern-spotting",
+      "title": "Drill core tactical motifs",
+      "track": "tactics",
+      "stage": "beginner",
+      "why": "Tactics decide most amateur games; repeated exposure teaches your brain to spot forks, pins, and mates instantly.",
+      "outcomes": [
+        "Score at least 70% on mixed puzzle sets up to 1500 rating.",
+        "Recognize motifs like skewers, decoys, and deflections within five seconds.",
+        "Apply calculation discipline: candidate moves, forcing lines, blunder check."
+      ],
+      "time_estimate": "2-3 weeks",
+      "prerequisites": ["rules-notation-fundamentals"],
+      "resources": [
+        "tactics-chesstempo",
+        "tactics-chesscademy",
+        "books-chess-problems"
+      ]
+    },
+    {
+      "id": "strategy-build-plans",
+      "title": "Turn imbalances into plans",
+      "track": "strategy",
+      "stage": "improver",
+      "why": "Evaluating pawn structure and piece activity helps you choose plans that exploit long-term advantages.",
+      "outcomes": [
+        "Identify the best and worst placed pieces for both sides in a middlegame.",
+        "Outline a three-step plan aligned with pawn structure goals.",
+        "Explain why a plan failed using post-game annotations."
+      ],
+      "time_estimate": "3-4 weeks",
+      "prerequisites": ["tactics-pattern-spotting"],
+      "resources": [
+        "strategy-understanding-mastery",
+        "strategy-working-backward",
+        "communities-chess24"
+      ]
+    },
+    {
+      "id": "endgames-king-pawn-core",
+      "title": "Secure king and pawn fundamentals",
+      "track": "endgames",
+      "stage": "beginner",
+      "why": "Endgame technique turns small advantages into wins and saves inferior positions by force.",
+      "outcomes": [
+        "Win basic K+P vs K positions with correct opposition handling.",
+        "Convert outside passed pawn scenarios after simplification.",
+        "Demonstrate Lucena and Philidor setups for rook endgames."
+      ],
+      "time_estimate": "2 weeks",
+      "prerequisites": ["rules-notation-fundamentals"],
+      "resources": [
+        "notation-fen-tutorial",
+        "books-chess-problems",
+        "communities-lichess"
+      ]
+    },
+    {
+      "id": "openings-build-repertoire",
+      "title": "Design a resilient opening repertoire",
+      "track": "openings",
+      "stage": "intermediate",
+      "why": "Prepared move orders steer games into familiar territory and save clock time during critical early decisions.",
+      "outcomes": [
+        "List three trusted white systems and two black responses with key ideas.",
+        "Memorize critical tactical shots that punish early mistakes in your lines.",
+        "Annotate at least five personal reference games per chosen opening."
+      ],
+      "time_estimate": "4-6 weeks",
+      "prerequisites": ["strategy-build-plans"],
+      "resources": [
+        "communities-chess24",
+        "communities-lichess",
+        "books-sicilian-dragon"
+      ]
+    },
+    {
+      "id": "analysis-self-review",
+      "title": "Create a disciplined game review loop",
+      "track": "analysis-habits",
+      "stage": "improver",
+      "why": "Structured analysis exposes recurring mistakes and transforms each game into feedback.",
+      "outcomes": [
+        "Annotate every tournament game within 24 hours, highlighting critical decisions.",
+        "Tag mistakes as opening, tactic, strategy, or endgame for targeted training.",
+        "Summarize lessons learned and next actions in a training journal."
+      ],
+      "time_estimate": "Weekly cadence",
+      "prerequisites": ["tactics-pattern-spotting"],
+      "resources": [
+        "strategy-understanding-mastery",
+        "communities-lichess",
+        "communities-chess24"
+      ]
+    },
+    {
+      "id": "play-online-otb-habits",
+      "title": "Build confident playing routines",
+      "track": "play-online-otb",
+      "stage": "beginner",
+      "why": "Consistent practice online and over-the-board builds nerves, etiquette, and time management.",
+      "outcomes": [
+        "Establish a warm-up checklist before every session.",
+        "Practice increment and classical time controls weekly.",
+        "Review sportsmanship guidelines for online and club play."
+      ],
+      "time_estimate": "Ongoing",
+      "prerequisites": ["rules-notation-fundamentals"],
+      "resources": [
+        "communities-lichess",
+        "communities-freechess",
+        "communities-chess24"
+      ]
+    },
+    {
+      "id": "engine-programming-basics",
+      "title": "Explore chess engine building blocks",
+      "track": "engine-programming",
+      "stage": "advanced",
+      "why": "Understanding engine architecture unlocks new custom training tools and fosters deeper positional evaluation skills.",
+      "outcomes": [
+        "Implement move validation and make/undo logic for a simple engine.",
+        "Experiment with evaluation tweaks and observe search strength changes.",
+        "Integrate UCI commands to analyze games with your custom bot."
+      ],
+      "time_estimate": "6-8 weeks",
+      "prerequisites": ["analysis-self-review"],
+      "resources": [
+        "engines-chessjs",
+        "engines-latrunculorum",
+        "engines-chessbot-java"
+      ]
+    }
+  ]
+}
