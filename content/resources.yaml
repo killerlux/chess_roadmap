@@ -1,0 +1,98 @@
+categories:
+  - name: Books
+    slug: books
+    resources:
+      - id: books-chess-problems
+        title: Chess Problems
+        url: https://kairavacademydotcom.files.wordpress.com/2013/06/john-thursby-75-chess-problems.pdf
+        summary: A public-domain booklet packed with 75 classic compositions that train you to spot forcing checkmate ideas quickly.
+      - id: books-chess-strategy
+        title: Chess Strategy by Edward Lasker
+        url: http://www.gutenberg.org/cache/epub/5614/pg5614-images.html
+        summary: Edward Lasker’s timeless manual walks through positional principles chapter by chapter with fresh algebraic diagrams.
+      - id: books-sicilian-dragon
+        title: Sicilian Dragon – Black Attacks
+        url: http://www.chesscity.com/PDF/Sicilian_Dragon_Black_Attacks_ssd.pdf
+        summary: A concise PDF showing how to launch the thematic ...g6 counterattack structure from the Dragon with model plans for club players.
+  - name: Notation / PGN / FEN
+    slug: notation
+    resources:
+      - id: notation-fen-tutorial
+        title: Forsyth–Edwards Notation (FEN)
+        url: https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation
+        summary: Reference article explaining how every board layout converts into an exact FEN string including move counters.
+      - id: notation-pgn-spec
+        title: Portable Game Notation (PGN) specification
+        url: http://www6.chessclub.com/help/PGN-spec
+        summary: Official PGN spec covering headers, move text, and annotation glyphs so you can store games in a standard format.
+      - id: notation-algebraic-overview
+        title: Algebraic Chess Notation overview
+        url: https://en.wikipedia.org/wiki/Algebraic_notation_(chess)
+        summary: A quick primer on modern algebraic move naming with examples for special moves, captures, and promotions.
+  - name: Engines/Dev
+    slug: engines-dev
+    resources:
+      - id: engines-chessjs
+        title: chess.js
+        url: https://github.com/jhlywa/chess.js
+        summary: Lightweight JavaScript engine that validates moves, generates legal replies, and exports FEN/PGN for app integrations.
+      - id: engines-latrunculorum
+        title: latrunculorum
+        url: https://github.com/benwr/latrunculorum
+        summary: Simple Python bot that showcases minimax search with a clean structure ideal for experimentation.
+      - id: engines-chessbot-java
+        title: Chessbot
+        url: https://github.com/jfabeel/Chessbot
+        summary: Java-based chess robot featuring evaluation heuristics and a UCI-friendly search loop you can extend.
+  - name: Tools
+    slug: tools
+    resources:
+      - id: tools-chessboardjs
+        title: Chessboard.js
+        url: https://github.com/oakmac/chessboardjs/
+        summary: Browser-ready board renderer that lets you embed interactive diagrams with drag-and-drop moves.
+      - id: tools-chess-board-webcomponent
+        title: chess-board web component
+        url: https://github.com/laat/chess-board
+        summary: Web component that consumes a FEN string and paints a responsive board without extra UI frameworks.
+      - id: tools-chessboard-js-responsive
+        title: Chessboard-js responsive library
+        url: https://github.com/caustique/chessboard-js
+        summary: Mobile-first JavaScript board widget tuned for touch devices and lightweight embeds.
+  - name: Tactics
+    slug: tactics
+    resources:
+      - id: tactics-chesstempo
+        title: Chesstempo puzzles
+        url: http://chesstempo.com
+        summary: Daily tactics trainer with rating-adjusted puzzles that track your accuracy streaks over time.
+      - id: tactics-chesscademy
+        title: Chesscademy training hub
+        url: https://www.chesscademy.com/
+        summary: Free puzzle sets and guided lessons that reinforce tactical patterns with quick quizzes.
+  - name: Strategy
+    slug: strategy
+    resources:
+      - id: strategy-working-backward
+        title: Working backward to solve problems – Maurice Ashley
+        url: https://www.youtube.com/watch?v=v34NqCbAA1c
+        summary: Grandmaster Maurice Ashley explains how reverse-engineering final positions sharpens your planning mindset.
+      - id: strategy-understanding-mastery
+        title: Understanding Chess Mastery – Jennifer Shahade
+        url: https://www.youtube.com/watch?v=fPopQaY7Og4
+        summary: National master Jennifer Shahade shares repeatable study habits that build a disciplined improvement loop.
+  - name: Communities
+    slug: communities
+    resources:
+      - id: communities-lichess
+        title: Lichess.org
+        url: http://en.lichess.org/
+        summary: Open-source server for playing, studying, and watching chess with built-in puzzle rush and analysis tools.
+      - id: communities-freechess
+        title: Free Internet Chess Server (FICS)
+        url: http://freechess.org/
+        summary: Veteran online server that still hosts lively blitz pools and supports classic telnet-style interfaces.
+      - id: communities-chess24
+        title: Chess24 playzone
+        url: https://chess24.com/en/play/chess
+        summary: Modern playing lobby featuring live broadcasts, structured lessons, and an active tournament calendar.
