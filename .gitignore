@@ -1,0 +1,14 @@
+node_modules
+.pnpm-store
+.next
+out
+dist
+coverage
+playwright-report
+.vscode/*.log
+.DS_Store
+.env.local
+.env
+
+# Binary assets
+apps/web/app/favicon.ico

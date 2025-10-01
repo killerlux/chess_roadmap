@@ -1,0 +1,27 @@
+{
+  "name": "chess-roadmap",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@9.1.3",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "pnpm -C apps/web lint",
+    "format": "pnpm -C apps/web format",
+    "format:check": "pnpm -C apps/web format:check",
+    "typecheck": "pnpm -C apps/web typecheck",
+    "test": "pnpm -C apps/web test",
+    "e2e": "pnpm -C apps/web e2e",
+    "link:check": "pnpm -C apps/web link:check",
+    "build": "pnpm -C apps/web build",
+    "start": "pnpm -C apps/web start",
+    "ci": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm test && pnpm e2e && pnpm link:check && pnpm build",
+    "ingest": "tsx scripts/ingest/awesome_chess.ts",
+    "validate:links": "tsx scripts/validate/links.ts"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "tsx": "^4.19.2",
+    "yaml": "^2.7.0"
+  }
+}
